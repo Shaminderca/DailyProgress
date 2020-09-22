@@ -46,9 +46,9 @@ public class BrokenPage extends TestBase {
 
 	public String methodtwo() {
 		Actions a = new Actions(driver);
-		// jse = (JavascriptExecutor) driver;
+		
 		wait.until(ExpectedConditions.visibilityOf(homeIcon));
-
+		// JavascriptExecutor jse; = (JavascriptExecutor) driver;
 		// jse.executeScript("arguments[0].scrollIntoView(true);", homeIcon);
 		// homeIcon.click();
 
