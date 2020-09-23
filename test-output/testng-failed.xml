@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.Test.calandertwo">
+      <class name="com.qa.Test.CalanderExpedia">
         <methods>
-          <include name="testOne"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="TestMethod"/>
+          <include name="tearOFF"/>
         </methods>
-      </class> <!-- com.qa.Test.calandertwo -->
+      </class> <!-- com.qa.Test.CalanderExpedia -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
